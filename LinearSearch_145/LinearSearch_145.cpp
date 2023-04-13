@@ -55,5 +55,7 @@ void LinearSearch()
 		}
 
 		if (i == n)												// Langkah no.5 Algoritma
+			cout << "\n" << item << " not found in the array\n";
+		cout << "\nNumber of comparisons: " << ctr << endl;
 	}
 }
